@@ -1,4 +1,4 @@
-﻿namespace ExemploCSharp.DTO
+﻿namespace DribionPayAPI.DTO
 {
     public class BoletoEnvioResultDTO
     {

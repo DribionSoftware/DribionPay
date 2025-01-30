@@ -1,4 +1,4 @@
-﻿using ExemploCSharp.DTO;
+﻿using DribionPayAPI.DTO;
 using Newtonsoft.Json;
 using System.Net.Http.Headers;
 using System.Text;
@@ -17,7 +17,7 @@ namespace DribionPayAPI
         public string MensagemErro;
 
         /// <summary>
-        /// 
+        /// DribionPayHelper
         /// </summary>
         /// <param name="email">Email utilizado no cadastro</param>
         /// <param name="senha">Senha do seu login</param>

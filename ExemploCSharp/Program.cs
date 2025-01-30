@@ -1,8 +1,4 @@
-﻿using ExemploCSharp.DTO;
-using Newtonsoft.Json;
-using System.Net.Http.Headers;
-using System.Runtime.InteropServices;
-using System.Text;
+﻿using DribionPayAPI.DTO;
 
 namespace ExemploCSharp
 {
