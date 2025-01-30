@@ -7,7 +7,7 @@ namespace DribionPayAPI
 {
     public class DribionPayHelper
     {
-        private readonly string _urlAPI = "https://web.dribion.com/dribionpayapi/";
+        private readonly string _urlAPI = "https://api.dribionpay.com.br/";
         private readonly string _email;
         private readonly string _senha;
         private readonly string _empresaKey;
@@ -78,7 +78,6 @@ namespace DribionPayAPI
         {
             // TODO: Implementar a consulta de boletos por data e banco
             return null;
-
             var retornaBoletosBody = new
             {
                 Data = data,
