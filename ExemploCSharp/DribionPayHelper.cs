@@ -16,6 +16,13 @@ namespace DribionPayAPI
         private readonly HttpClient _client;
         public string MensagemErro;
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="email">Email utilizado no cadastro</param>
+        /// <param name="senha">Senha do seu login</param>
+        /// <param name="empresaKey">Empresa ID fornecido pela Dribion</param>
+        /// <param name="ambiente">Homologacao ou Producao</param>
         public DribionPayHelper(string email, string senha, string empresaKey, string ambiente)
         {
             _email = email;
